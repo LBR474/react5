@@ -21,7 +21,7 @@ export function ControlApp() {
     <>
       <Routes>
         {/* // starting  with back to home*/}
-        <Route path="/react5/GQGame" element={<GQGame />} />
+        <Route path="/GQGame" element={<GQGame />} />
         {/* <Route path="/GQGame" element={<GQGame />} /> */}
 
         <Route element={<AppLayout />}>
