@@ -2,7 +2,7 @@
   "name": "react5",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://lbr474.github.io/react5/",
   "dependencies": {
     "@react-spring/web": "^9.5.2",
     "@react-three/cannon": "^6.4.0",
