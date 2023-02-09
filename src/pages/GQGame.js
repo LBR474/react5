@@ -88,7 +88,7 @@ export const GQGame = () => {
   const ExpNavLinkPara = () => {
     return (
       <p id="ExpNavLink_para">
-        <NavLink to={"/"} key={nanoid(6)}>
+        <NavLink to={"/react5"} key={nanoid(6)}>
           Go back home
         </NavLink>
       </p>
