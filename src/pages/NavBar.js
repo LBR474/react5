@@ -10,14 +10,14 @@ export const NavBar = () => {
     <div>
       <nav>
         <button>
-          <Link to={"/react5"} element={<Home />}>
+          <Link to={"/"} element={<Home />}>
           {/* <Link to={"/"} element={<Home />}> */}
             Home
           </Link>
         </button>
         &emsp;
         <button>
-          <Link to={"/react5/GQGame"} element={<GQGame />}>
+          <Link to={"/GQGame"} element={<GQGame />}>
           {/* <Link to={"/GQGame"} element={<GQGame />}> */}
             Galaxy Quest game (React)
           </Link>

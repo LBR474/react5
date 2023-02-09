@@ -25,7 +25,7 @@ export function ControlApp() {
         {/* <Route path="/GQGame" element={<GQGame />} /> */}
 
         <Route element={<AppLayout />}>
-          <Route path="/react5" element={<Home />} />
+          <Route path="/" element={<Home />} />
           {/* <Route path="/" element={<Home />} /> */}
         </Route>
       </Routes>
