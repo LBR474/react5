@@ -99,7 +99,7 @@ export const GQGame = () => {
     if (showScoreNavLinkPara) {
       return (
         <p id="ScoreNavLink_para">
-          <Link to={"/react5/Home"}>Back to home</Link>
+          <Link to={"/react5"}>Back to home</Link>
         </p>
       );
     }
