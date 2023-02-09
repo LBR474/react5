@@ -3,13 +3,14 @@ import ReactDOM from "react-dom/client";
 
 import { BrowserRouter } from "react-router-dom";
 
-import { ControlApp } from "./ControlApp";
+
+import { GQGame } from "./pages/GQGame";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ControlApp />
+      <GQGame />
     </BrowserRouter>
   </React.StrictMode>
 );

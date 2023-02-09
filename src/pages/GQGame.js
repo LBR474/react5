@@ -6,7 +6,7 @@ import "../index.css";
 
 import { Protector10 } from "../components/Protector10";
 
-import { Link, NavLink } from "react-router-dom";
+//import { Link, NavLink } from "react-router-dom";
 
 import {
   number_of_mines,
@@ -81,29 +81,29 @@ export const GQGame = () => {
         <p>Avoid mines by dragging the Protector.</p>
         <p>Score 100 points for avoiding a mine, lose 500 for collision.</p>
         <p>Five collisions = game over.</p>
-        <ExpNavLinkPara />
+        {/* <ExpNavLinkPara /> */}
       </div>
     );
   };
-  const ExpNavLinkPara = () => {
-    return (
-      <p id="ExpNavLink_para">
-        <NavLink to={"/react5"} key={nanoid(6)}>
-          Go back home
-        </NavLink>
-      </p>
-    );
-  };
+  // const ExpNavLinkPara = () => {
+  //   return (
+  //     <p id="ExpNavLink_para">
+  //       <NavLink to={"/"} key={nanoid(6)}>
+  //         Go back home
+  //       </NavLink>
+  //     </p>
+  //   );
+  // };
 
-  const ScoreNavLinkPara = () => {
-    if (showScoreNavLinkPara) {
-      return (
-        <p id="ScoreNavLink_para">
-          <Link to={"/react5"}>Back to home</Link>
-        </p>
-      );
-    }
-  };
+  // const ScoreNavLinkPara = () => {
+  //   if (showScoreNavLinkPara) {
+  //     return (
+  //       <p id="ScoreNavLink_para">
+  //         <Link to={"/"}>Back to home</Link>
+  //       </p>
+  //     );
+  //   }
+  // };
   const Score = () => {
     return (
       <div id="Score" className="score_div" key={nanoid(6)}>
@@ -111,7 +111,7 @@ export const GQGame = () => {
         <p id="Score_para" key={nanoid(6)}>
           {userScore}
         </p>
-        <ScoreNavLinkPara />
+        {/* <ScoreNavLinkPara /> */}
       </div>
     );
   };
