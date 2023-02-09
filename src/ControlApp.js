@@ -21,12 +21,12 @@ export function ControlApp() {
     <>
       <Routes>
         {/* // starting  with back to home*/}
-        <Route path="/GQGame" element={<GQGame />} />
+        <Route path="/react5/GQGame" element={<GQGame />} />
         {/* <Route path="/GQGame" element={<GQGame />} /> */}
 
         <Route element={<AppLayout />}>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/" element={<Home />} /> */}
+          {/* <Route path="/react5" element={<Home />} /> */}
         </Route>
       </Routes>
     </>
